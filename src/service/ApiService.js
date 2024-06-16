@@ -53,9 +53,7 @@ export function signup(userDTO) {
         }
     })
     .catch((error) => {
-        console.log("Oops!");
         console.log(error.status);
-        console.log("Oops!")  
         if(error.status === 403) {  
             window.location.href = "/auth/signup";
         }
