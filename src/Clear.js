@@ -14,9 +14,9 @@ class Clear extends React.Component {
 
     render() {
         return (
-            <div>
+            <div>모두 지우기
                 <IconButton
-                    aria-label="지우기"
+                    aria-label="모두 지우기"
                     onClick={this.deleteEventHandler}
                 >
                     <DeleteOutlined />
